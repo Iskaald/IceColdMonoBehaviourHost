@@ -1,0 +1,10 @@
+{
+  "name": "com.iskaald.monobehaviourhost",
+  "version": "1.0.0",
+  "displayName": "Mono Behaviour Host",
+  "description": "Provides a centralized system for creating, managing, and executing MonoBehaviour components, enabling non-MonoBehaviour classes to utilize Unity's update loop and coroutines.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Iskald"
+  }
+}
