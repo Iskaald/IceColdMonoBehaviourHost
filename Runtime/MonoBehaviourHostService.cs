@@ -1,9 +1,9 @@
 ﻿using System.Collections;
-using IceColdCore.Interface;
-using IceColdCore.MonoBehaviourHost.Interface;
+using IceCold.Interface;
+using IceCold.MonoBehaviourHost.Interface;
 using UnityEngine;
 
-namespace IceColdCore.MonoBehaviourHost
+namespace IceCold.MonoBehaviourHost
 {
     [ServicePriority(1)]
     public class MonoBehaviourHostService : IMonoBehaviourHostService
@@ -66,7 +66,7 @@ namespace IceColdCore.MonoBehaviourHost
         public void AddComponentOfTypeToRoot<T>() where T : Component
         {
             if (coreRoot == null) CreateHostObject();
-            if (coreRoot.GetComponent<T>() == null)
+            if (coreRoot!.GetComponent<T>() == null)
                 coreRoot.AddComponent<T>();
         }
 
@@ -74,7 +74,7 @@ namespace IceColdCore.MonoBehaviourHost
         {
             if (coreRoot == null) CreateHostObject();
             var newObj = new GameObject(name);
-            newObj.transform.SetParent(coreRoot.transform);
+            newObj.transform.SetParent(coreRoot!.transform);
             
             return newObj;
         }

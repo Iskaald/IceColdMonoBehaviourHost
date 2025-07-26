@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace IceColdCore.MonoBehaviourHost
+namespace IceCold.MonoBehaviourHost
 {
     public class MonoBehaviourHost : MonoBehaviour
     {

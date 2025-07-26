@@ -1,8 +1,8 @@
 {
-  "name": "IceColdCore.MonoBehaviourHost",
+  "name": "IceCold.MonoBehaviourHost",
   "references": [
-    "IceColdCore.MonoBehaviourHost.Interface",
+    "IceCold.MonoBehaviourHost.Interface",
     
-    "IceColdCore.Interface"
+    "IceCold.Interface"
   ]
 }

@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using IceColdCore.Interface;
+using IceCold.Interface;
 using UnityEngine;
 
-namespace IceColdCore.MonoBehaviourHost.Interface
+namespace IceCold.MonoBehaviourHost.Interface
 {
     public interface IMonoBehaviourHostService : ICoreService
     {
