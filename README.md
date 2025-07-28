@@ -1,0 +1,1 @@
+A service for managing and hosting MonoBehaviour-based components outside of the standard Unity scene hierarchy, enabling non-MonoBehaviour classes to utilize Unity's update loop and coroutines.
