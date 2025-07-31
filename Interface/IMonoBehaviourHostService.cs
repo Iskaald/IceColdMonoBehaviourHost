@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace IceCold.MonoBehaviourHost.Interface
 {
-    public interface IMonoBehaviourHostService : ICoreService
+    public interface IMonoBehaviourHostService : IIceColdService
     {
         public void StartCoroutine(IEnumerator routine);
         public void StopCoroutine(IEnumerator routine);
