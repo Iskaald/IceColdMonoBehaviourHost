@@ -24,10 +24,7 @@ namespace IceCold.MonoBehaviourHost
             IsInitialized = false;
         }
         
-        public bool OnWillQuit()
-        {
-            return true;
-        }
+        public void OnWillQuit() { }
 
         private void CreateHostObject()
         {
